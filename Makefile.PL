@@ -10,6 +10,7 @@ all_from 'lib/Devel/Declare.pm';
 requires 'Scalar::Util' => 1.11; # set_prototype appeared in this version
 requires 'B::Hooks::OP::Check' => '0.18';
 requires 'B::Hooks::EndOfScope' => '0.05';
+requires 'B::Compiling' => '0.02';
 requires 'Sub::Name';
 
 build_requires 'B::Hooks::OP::Check' => '0.18';
